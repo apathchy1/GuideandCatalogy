@@ -8,8 +8,9 @@ include 'header.php';
 <a href="index.php"><img src="../src/back_button.png" class="back" align="left" width="60" height="40"/></a>
 </div>
 
-<div class="w3-container1">
-<button style onclick="document.getElementById('id01').style.display='block'" class="button"></button>
+<!-- Popup 2 start -->  
+<div class="w3-container">
+<button style onclick="document.getElementById('id01').style.display='block'" class="button2"></button>
 <div id="id01" class="w3-modal">
  <div class="w3-modal-content w3-animate-zoom">
   <header id="header" class="w3-container"> 
@@ -24,7 +25,6 @@ include 'header.php';
      
 <!-- Крумов дворец popup start -->
  <div id="London" class="city">
-     
      <table>
          <tr>
              <td> <img src="../src/krumov-vuzstanovka.jpg" width="400px"/></td>
@@ -74,18 +74,29 @@ include 'header.php';
     </div>
     </div>
 <!-- Cointainer End -->  
+    <!-- Popup 3 старт -->
+    <button style onclick="document.getElementById('id02').style.display='block'" class="button3"></button>
+<div id="id02" class="w3-modal">
+ <div class="w3-modal-content w3-animate-zoom">
+  <header id="header" class="w3-container"> 
+   <span onclick="document.getElementById('id02').style.display='none'" 
+   class="w3-button2 w3-trasparent w3-large w3-display-topright">&times;</span>
+   <h1 class="h1">Юртообразна дървена постройка</h1>
+      </header>
+    <table>
+         <tr>
+             <td> <img src="../src/krumov-vuzstanovka.jpg" width="400px"/></td>
+             <td rowspan="2"><p align="justify">&nbsp;Крумовият дворец е сред най-ранните каменни сгради, съществували в Плиска преди опожаряването на столицата от император Никифор I Геник през 811 г. Планът на тази сграда е установен с изключителна точност още през 30-те години на ХХ век, въпреки направените за първи път неголемите сондажни проучвания, направени от Кр. Миятев. Именно той нарича тази огромна по размери сграда Крумов дворец. Новото проучване през 1976 – 1979 г. добавя нови подробности за този паметник. Тогава са потвърдени следите от голям пожар във всички части на сградата. <br/>
+                 &nbsp;От градежа на този дворец са запазени предимно подложките на основите и незначителни части от каменния градеж. Те очертават четириъгълник с размери 75х59,50 м, прорязан от перпендикулярни зидове, които образуват 63 клетки. Приземният етаж е бил необитаем. Достъпът до горния етаж е ставал посредством стълби, изградени в четирите кули – по две на източната и западната фасада. Голямата площ (4718 кв. м) подсказва, че сградата е била едновременно жилищен и представителен дворец. Най-близкият аналог на Крумовия дворец е една частично проучена сграда на територията на двореца в Константинопол, която е датирана в VIII в. 
+ </p></td>
+         </tr>
+     </table>
      
+    </div>
+    </div>
 </div>
 <!-- Тронна палата popup end -->  
-
-
-
-
-
-
-
-
-
+<!-- Popup 2 end -->  
 
 
 <script>
@@ -104,12 +115,15 @@ function openCity(evt, cityName) {
   evt.currentTarget.classList.add("w3-light-grey");
 }
 var modal = document.getElementById('id01');
-
+var modal2 = document.getElementById('id02');
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
     if (event.target == modal) {
         modal.style.display = "none";
     }
+    else if(event.target == modal2) {
+        modal2.style.display = "none";
+}
 }
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
