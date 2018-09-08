@@ -86,7 +86,52 @@ a:link, a:visited ,a:hover ,a:active {
     height:50px;
     width: 50px;
     display: block;
-    position:absolute; left: 690px; top: 460px;
+    position:absolute; left: 700px; top: 450px;
+}  
+.button1 {
+    background-color: yellow; /* Green */
+    border: none;
+    cursor: pointer;
+    height:50px;
+    width: 50px;
+    display: block;
+    position:absolute; left: 870px; top: 400px;
+}  
+.button4 {
+    background-color: purple; /* Green */
+    border: none;
+    cursor: pointer;
+    height:50px;
+    width: 50px;
+    display: block;
+    position:absolute; left: 640px; top: 490px;
+}  
+.button6 {
+    background-color: aqua; /* Green */
+    border: none;
+    cursor: pointer;
+    height:50px;
+    width: 50px;
+    display: block;
+    position:absolute; left: 700px; top: 330px;
+}  
+.button10 {
+    background-color: hotpink; /* Green */
+    border: none;
+    cursor: pointer;
+    height:50px;
+    width: 50px;
+    display: block;
+    position:absolute; left: 470px; top: 680px;
+}  
+.button11 {
+    background-color: lemonchiffon; /* Green */
+    border: none;
+    cursor: pointer;
+    height:50px;
+    width: 50px;
+    display: block;
+    position:absolute; left: 510px; top: 450px;
 }  
 .h1{
     font-size: 36px;
