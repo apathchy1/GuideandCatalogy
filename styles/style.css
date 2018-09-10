@@ -168,11 +168,6 @@ a:link, a:visited ,a:hover ,a:active {
 .carousel-inner img {
       width: 100%;
 }
-<<<<<<< HEAD
-table, th, td {
-    border: none;
-    padding: 18px;
-=======
 .caroul1 {
       width: 500px;
 }
@@ -214,5 +209,4 @@ table, th, td {
 .caroul1img{
     width:500px;
     height:500px;
->>>>>>> bdcce1594b937f03f05b7a938b5bf51f51087fd7
 }
