@@ -8,8 +8,9 @@ include 'header.php';
 <a href="index.php"><img src="../src/back_button.png" class="back" align="left" width="60" height="40"/></a>
 </div>
 
-<div class="w3-container1">
-<button style onclick="document.getElementById('id01').style.display='block'" class="button"></button>
+<!-- Popup Представителни дворцови сгради -->  
+<div class="w3-container">
+<button style onclick="document.getElementById('id01').style.display='block'" class="button2"></button>
 <div id="id01" class="w3-modal">
  <div class="w3-modal-content w3-animate-zoom">
   <header id="header" class="w3-container"> 
@@ -23,127 +24,194 @@ include 'header.php';
     </div>
      
 <!-- Крумов дворец popup start -->
- <div id="London" class="w3-container city">
-     <h1><center></center></h1>
-     
-   <!-- Cointainer Start -->
-  <div class="container-fluid">
-    <div class="row ">
-      <div class="col-3">     
-  <!-- Carousel Start -->        
-<div id="demo" class="carousel slide" data-ride="carousel">
-<!-- Indicators 
-  <ul class="carousel-indicators">
-    <li data-target="#demo" data-slide-to="0" class="active"></li>
-    <li data-target="#demo" data-slide-to="1"></li>
-    <li data-target="#demo" data-slide-to="2"></li>
-  </ul>
- -->
-  <!-- The slideshow -->
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="../src/1.jpg"  height="300">
-    </div>
-    <div class="carousel-item">
-      <img src="../src/2.jpg"  height="300">
-    </div>
-    <div class="carousel-item">
-      <img src="../src/1.jpg"  height="300">
-    </div>
-  </div>
-  <!-- Left and right controls -->
-    </div>
-   <a class="carousel-control-prev" href="#demo" data-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </a>
-  <a class="carousel-control-next" href="#demo" data-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </a>      
-<!-- Carousel End -->
-          
-</div>
-      <div class="col-6 ">
-        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-      </div>
-      </div>
-       <div class="row">
-           
-      <div class="col-3 ">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-     </div>
-    <div class="col-6 ">
-    </div>
-     </div>
-    </div>
-<!-- Cointainer End -->  
+ <div id="London" class="city">
+     <table>
+         <tr>
+             <td> <img src="../src/krumov-vuzstanovka.jpg" width="400px"/></td>
+             <td rowspan="2"><p align="justify">&nbsp;Крумовият дворец е сред най-ранните каменни сгради, съществували в Плиска преди опожаряването на столицата от император Никифор I Геник през 811 г. Планът на тази сграда е установен с изключителна точност още през 30-те години на ХХ век, въпреки направените за първи път неголемите сондажни проучвания, направени от Кр. Миятев. Именно той нарича тази огромна по размери сграда Крумов дворец. Новото проучване през 1976 – 1979 г. добавя нови подробности за този паметник. Тогава са потвърдени следите от голям пожар във всички части на сградата. <br/>
+                 &nbsp;От градежа на този дворец са запазени предимно подложките на основите и незначителни части от каменния градеж. Те очертават четириъгълник с размери 75х59,50 м, прорязан от перпендикулярни зидове, които образуват 63 клетки. Приземният етаж е бил необитаем. Достъпът до горния етаж е ставал посредством стълби, изградени в четирите кули – по две на източната и западната фасада. Голямата площ (4718 кв. м) подсказва, че сградата е била едновременно жилищен и представителен дворец. Най-близкият аналог на Крумовия дворец е една частично проучена сграда на територията на двореца в Константинопол, която е датирана в VIII в. 
+ </p></td>
+         </tr>
+         <tr>
+             <td>
+                 <div style="position:relative;height:0;padding-bottom:56.26%"><iframe src="https://www.youtube.com/embed/EKIZY8N3LII?ecver=2" style="position:absolute;width:100%;height:100%;left:0" width="640" height="360" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div> </td>
+         </tr>
+     </table>
      
 </div>
 <!-- Крумов дворец popup end -->
      
 <!-- Тронна палата popup start -->     
-  <div id="Paris" class="w3-container city">
-    <h1><center></center></h1>
+  <div id="Paris" class="city">
+      <table>
+          <tr>  
+              <td>
+                  <!-- Carousel Start --> 
+                    <div id="demo" class="carousel slide" data-ride="carousel">
+                          <!-- The slideshow -->
+                          <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                  <img src="../src/krumov-vuzstanovka.jpg"  width="200px">
+                              </div>
+                              <div class="carousel-item">
+                                  <img src="../src/krumov.JPG"  width="200px">
+                              </div>
+                              <!-- Carousel End -->
+                          </div>
+                  </div>
+              </td>
+            </tr>
+          <tr>
+              <td>
+                  <p align="justify">&nbsp;Тронната палата поема функциите на представителна сграда след разрушаването на Крумовия дворец. Това е още един от обектите, чиито проучвания започва Карел Шкорпил през 1899 г. Проучванията са продължени в средата на ХХ век от Кр. Миятев, Ст. Михайлов, а по-късно по този обект работи и Р. Рашев. В резултат на многогодишните проучвания, архитектурният тип и строителна история на сградата са определени сравнително точно.<br/>
+&nbsp;В план новият представителен дворец е бил базиликална постройка, ориентирана с дългата си ос в посока север – юг. Съставена е от предверие и зала с общи размери 52 х 26 м. Градена е от дялани варовикови блокове, споявани с розов хоросан. Днес във височина са запазени каменни блокове до пети ред от приземния етаж. Самият той е бил необитаван, като помещенията му са използвани като складове. Представителният етаж е разделен на три части – преддверие в южната част, тронна зала и вградена апсида в най-северната част, където е поставен тронът. Тронната зала е била разделена на три кораба от  две редици колони. Този план приближава двореца към базиликите от елинистически тип. В процеса на използване, към източната фасада на Тронната палата е била изградена дървена трибуна, използвана от владетеля за нуждите на дворцовия церемониал.
+
+                  </p>
+              </td>
+          </tr>
+      </table>
+     </div>
+    </div>
+    </div>
+ <!-- END Представителни дворцови сгради -->   
+    
+    <!-- Popup Юртообразна дървена постройка -->
+    <button style onclick="document.getElementById('id02').style.display='block'" class="button3"></button>
+<div id="id02" class="w3-modal">
+ <div class="w3-modal-content w3-animate-zoom">
+  <header id="header" class="w3-container"> 
+   <span onclick="document.getElementById('id02').style.display='none'" 
+   class="w3-button2 w3-trasparent w3-large w3-display-topright">&times;</span>
+   <h1 class="h1">Юртообразна дървена постройка</h1>
+      </header>
+    <table>
+         <tr>
+             <td> <img src="../src/krumov-vuzstanovka.jpg" width="400px"/></td>
+             <td rowspan="2"><p align="justify">&nbsp;Крумовият дворец е сред най-ранните каменни сгради, съществували в Плиска преди опожаряването на столицата от император Никифор I Геник през 811 г. Планът на тази сграда е установен с изключителна точност още през 30-те години на ХХ век, въпреки направените за първи път неголемите сондажни проучвания, направени от Кр. Миятев. Именно той нарича тази огромна по размери сграда Крумов дворец. Новото проучване през 1976 – 1979 г. добавя нови подробности за този паметник. Тогава са потвърдени следите от голям пожар във всички части на сградата. <br/>
+                 &nbsp;От градежа на този дворец са запазени предимно подложките на основите и незначителни части от каменния градеж. Те очертават четириъгълник с размери 75х59,50 м, прорязан от перпендикулярни зидове, които образуват 63 клетки. Приземният етаж е бил необитаем. Достъпът до горния етаж е ставал посредством стълби, изградени в четирите кули – по две на източната и западната фасада. Голямата площ (4718 кв. м) подсказва, че сградата е била едновременно жилищен и представителен дворец. Най-близкият аналог на Крумовия дворец е една частично проучена сграда на територията на двореца в Константинопол, която е датирана в VIII в. 
+ </p></td>
+         </tr>
+     </table>
      
-  <div class="container-fluid">
-  
-<table>
-  <tr>
-    <th> <!-- Carousel Start -->        
-<div id="demo" class="carousel slide" data-ride="carousel">
-<!-- Indicators 
-  <ul class="carousel-indicators">
-    <li data-target="#demo" data-slide-to="0" class="active"></li>
-    <li data-target="#demo" data-slide-to="1"></li>
-    <li data-target="#demo" data-slide-to="2"></li>
-  </ul>
- -->
-  <!-- The slideshow -->
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="../src/1.jpg"  height="200">
     </div>
-    <div class="carousel-item">
-      <img src="../src/2.jpg"  height="200">
     </div>
-    <div class="carousel-item">
-      <img src="../src/1.jpg"  height="200">
+<!-- Popup Юртообразна дървена постройка end --> 
+    
+    <!-- Popup Главна(Източна)порта --> 
+     <button style onclick="document.getElementById('id00').style.display='block'" class="button1"></button>
+<div id="id00" class="w3-modal">
+ <div class="w3-modal-content w3-animate-zoom">
+  <header id="header" class="w3-container"> 
+   <span onclick="document.getElementById('id00').style.display='none'" 
+   class="w3-button2 w3-trasparent w3-large w3-display-topright">&times;</span>
+   <h1 class="h1">Главна (Източна) порта</h1>
+      </header>
+     <table><tr><td>
+         <img src="../src/%D0%9F%D0%BB%D0%B8%D1%81%D0%BA%D0%B0%20-%20%D0%B8%D0%B7%D1%82%D0%BE%D1%87%D0%BD%D0%B0%20%D0%BF%D0%BE%D1%80%D1%82%D0%B0.JPG" width="100%"/></td></tr></table>
     </div>
-  </div>
-  <!-- Left and right controls -->
     </div>
-   <a class="carousel-control-prev" href="#demo" data-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </a>
-  <a class="carousel-control-next" href="#demo" data-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </a>      
-<!-- Carousel End --></th>
-  </tr>
-  <tr>
-   <th>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-Why do we use it?
-
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-</th>
-  </tr>
-</table>
-    </div>
- 
-</div>
-<!-- Cointainer End -->  
+      
+    <!-- Popup Главна(Източна)порта end -->   
+    
+    <!-- Popup Голям езически храм и Дворцова Базилика --> 
+     <button style onclick="document.getElementById('id03').style.display='block'" class="button4"></button>
+<div id="id03" class="w3-modal">
+ <div class="w3-modal-content w3-animate-zoom">
+  <header id="header" class="w3-container"> 
+   <span onclick="document.getElementById('id03').style.display='none'" 
+   class="w3-button2 w3-trasparent w3-large w3-display-topright">&times;</span>
+   <h1 class="h1">Голям езически храм и Дворцова Базилика</h1>
+      </header>
+    <table>
+         <tr>
+             <td> <img src="../src/ezicheski-hram-dvorcova-bazilika.JPG" width="400px"/></td>
+             <td><p align="justify">
+                 &nbsp;Езическият храм западно от Тронната палата е съставен от два вписани четириъгълника, външният от които е с размери 38 х 27 м. Вътрешният четириъгълник е с размери 23,6 х 14,6 м. Както много други обекти, тук проучванията също са започнати от Карел Шкорпил. В последствие сградата е проучвана от Стамен Михайлов и Павел Георгиев.<br/>
+                 &nbsp;Храмът е ориентиран с дългата си ос в посока изток – запад. Изграден е от големи дялани блокове, споени с червен хоросан. В южния коридор е изграден басейн, от който се е черпела вода за свещенодействията. Големите му размери предполагат, че той е бил предназначен не само за владетелското семейство, но и за по-голяма част от населението на Вътрешния град. Изграждането му се поставя в първата половина на IXвек.<br/>
+                 &nbsp;След приемането на християнството езическият храм е бил разрушен и върху част от останките му е изградена базилика. С течение на времето нейният план е бил изменян и допълван. Градежът ѝ е от варовикови блокове и тухли, споявани с хоросан.
+            </p></td>
+         </tr>
+     </table>
      
+    </div>
+    </div>
+    
+    <!-- Popup Голям езически храм и Дворцова Базилика end -->   
+    
+    <!-- Popup Болярско Жилище start --> 
+     <button style onclick="document.getElementById('id06').style.display='block'" class="button6"></button>
+<div id="id06" class="w3-modal">
+ <div class="w3-modal-content w3-animate-zoom">
+  <header id="header" class="w3-container"> 
+   <span onclick="document.getElementById('id06').style.display='none'" 
+   class="w3-button2 w3-trasparent w3-large w3-display-topright">&times;</span>
+   <h1 class="h1">Болярско Жилище</h1>
+      </header>
+    <table>
+         <tr>
+             <td><p align="justify">
+                 &nbsp;Болярското жилище представлява правоъгълна сграда, ориентирана в посока север – юг. Размерите ѝ са 16,0 х 12,20 м. Проучванията ѝ започват през 40-те години на ХХ век от Кр. Миятев. Окончателното е проучена през 90-те години от П. Георгиев.<br/> 
+                 &nbsp;Сградата е изградена от сравнително малки по размери каменни блокове, споени с червен хоросан. Вътрешността ѝ е разделена на 9 помещения, някои от които са със запазена каменна настилка. На север от тази постройка е била изградена баня, което може да свърже комплекса с някой от високопоставените боляри, приближени до българския владетел. По план, начин на градеж и богатство на интериора, постройката е сходна с жилищния дворец в Цитаделата. Като дата на изграждане се посочва първата четвърт на IX в., т. е. периодът на възстановяване на българската столица след пожара през 811 г.
+            </p></td>
+         </tr>
+     </table>
+     
+    </div>
+    </div>
+    
+    <!-- Popup Болярско Жилище end -->   
+    
+    
+    <!-- Popup Дървено укрепление на вътрешния град --> 
+     <button style onclick="document.getElementById('id11').style.display='block'" class="button11"></button>
+<div id="id11" class="w3-modal">
+ <div class="w3-modal-content w3-animate-zoom">
+  <header id="header" class="w3-container"> 
+   <span onclick="document.getElementById('id11').style.display='none'" 
+   class="w3-button2 w3-trasparent w3-large w3-display-topright">&times;</span>
+   <h1 class="h1">Дървено укрепление на вътрешния град</h1>
+      </header>
+    <table>
+         <tr>
+             <td> <img src="../src/krumov-vuzstanovka.jpg" width="400px"/></td>
+             <td rowspan="2"><p align="justify">&nbsp;Крумовият дворец е сред най-ранните каменни сгради, съществували в Плиска преди опожаряването на столицата от император Никифор I Геник през 811 г. Планът на тази сграда е установен с изключителна точност още през 30-те години на ХХ век, въпреки направените за първи път неголемите сондажни проучвания, направени от Кр. Миятев. Именно той нарича тази огромна по размери сграда Крумов дворец. Новото проучване през 1976 – 1979 г. добавя нови подробности за този паметник. Тогава са потвърдени следите от голям пожар във всички части на сградата. <br/>
+                 &nbsp;От градежа на този дворец са запазени предимно подложките на основите и незначителни части от каменния градеж. Те очертават четириъгълник с размери 75х59,50 м, прорязан от перпендикулярни зидове, които образуват 63 клетки. Приземният етаж е бил необитаем. Достъпът до горния етаж е ставал посредством стълби, изградени в четирите кули – по две на източната и западната фасада. Голямата площ (4718 кв. м) подсказва, че сградата е била едновременно жилищен и представителен дворец. Най-близкият аналог на Крумовия дворец е една частично проучена сграда на територията на двореца в Константинопол, която е датирана в VIII в. 
+ </p></td>
+         </tr>
+     </table>
+     
+    </div>
+    </div>
+    
+    <!-- Popup Дървено укрепление на вътрешния град end -->   
+    
+    
+     <!-- Popup Южна порта --> 
+     <button style onclick="document.getElementById('id10').style.display='block'" class="button10"></button>
+<div id="id10" class="w3-modal">
+ <div class="w3-modal-content w3-animate-zoom">
+  <header id="header" class="w3-container"> 
+   <span onclick="document.getElementById('id10').style.display='none'" 
+   class="w3-button2 w3-trasparent w3-large w3-display-topright">&times;</span>
+   <h1 class="h1">Южна порта</h1>
+      </header>
+    <table>
+         <tr>
+             <td> <img src="../src/krumov-vuzstanovka.jpg" width="400px"/></td>
+             <td rowspan="2"><p align="justify">&nbsp;Крумовият дворец е сред най-ранните каменни сгради, съществували в Плиска преди опожаряването на столицата от император Никифор I Геник през 811 г. Планът на тази сграда е установен с изключителна точност още през 30-те години на ХХ век, въпреки направените за първи път неголемите сондажни проучвания, направени от Кр. Миятев. Именно той нарича тази огромна по размери сграда Крумов дворец. Новото проучване през 1976 – 1979 г. добавя нови подробности за този паметник. Тогава са потвърдени следите от голям пожар във всички части на сградата. <br/>
+                 &nbsp;От градежа на този дворец са запазени предимно подложките на основите и незначителни части от каменния градеж. Те очертават четириъгълник с размери 75х59,50 м, прорязан от перпендикулярни зидове, които образуват 63 клетки. Приземният етаж е бил необитаем. Достъпът до горния етаж е ставал посредством стълби, изградени в четирите кули – по две на източната и западната фасада. Голямата площ (4718 кв. м) подсказва, че сградата е била едновременно жилищен и представителен дворец. Най-близкият аналог на Крумовия дворец е една частично проучена сграда на територията на двореца в Константинопол, която е датирана в VIII в. 
+ </p></td>
+         </tr>
+     </table>
+     
+    </div>
+    </div>
+    
+    <!-- Popup Южна порта end -->   
+    
+    
 </div>
-<!-- Тронна палата popup end -->  
-
-
-
-
-
-
-
-
-
+ <!-- Cointainer End -->
 
 
 <script>
@@ -161,14 +229,12 @@ function openCity(evt, cityName) {
   document.getElementById(cityName).style.display = "block";
   evt.currentTarget.classList.add("w3-light-grey");
 }
-var modal = document.getElementById('id01');
-
 // When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}
+    window.onclick = function closeOnClick(event) {
+        if (event.target.className === "w3-modal") {
+            event.target.style.display = "none";
+        }
+    };
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

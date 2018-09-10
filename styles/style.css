@@ -30,8 +30,11 @@ a:link, a:visited ,a:hover ,a:active {
     max-height: auto;
 }
 
+
+
+/*POPUP STYLES START 
  /* The Modal (background) */
-.modal {
+.modal, {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
@@ -45,7 +48,7 @@ a:link, a:visited ,a:hover ,a:active {
 }
 
 /* Modal Content/Box */
-.modal-content {
+.modal-content, {
     background-color: #fefefe;
     margin: 15% auto; /* 15% from the top and centered */
     padding: 20px;
@@ -67,14 +70,68 @@ a:link, a:visited ,a:hover ,a:active {
     text-decoration: none;
     cursor: pointer;
 } 
-.button {
-    background-color: transparent; /* Green */
+.button2 {
+    background-color: green; /* Green */
     border: none;
     cursor: pointer;
     height:50px;
     width: 50px;
     display: block;
     position:absolute; left: 770px; top: 440px;
+}  
+.button3 {
+    background-color: red; /* Green */
+    border: none;
+    cursor: pointer;
+    height:50px;
+    width: 50px;
+    display: block;
+    position:absolute; left: 700px; top: 450px;
+}  
+.button1 {
+    background-color: yellow; /* Green */
+    border: none;
+    cursor: pointer;
+    height:50px;
+    width: 50px;
+    display: block;
+    position:absolute; left: 870px; top: 400px;
+}  
+.button4 {
+    background-color: purple; /* Green */
+    border: none;
+    cursor: pointer;
+    height:50px;
+    width: 50px;
+    display: block;
+    position:absolute; left: 640px; top: 490px;
+}  
+.button6 {
+    background-color: aqua; /* Green */
+    border: none;
+    cursor: pointer;
+    height:50px;
+    width: 50px;
+    display: block;
+    position:absolute; left: 700px; top: 330px;
+}  
+.button10 {
+    background-color: hotpink; /* Green */
+    border: none;
+    cursor: pointer;
+    height:50px;
+    width: 50px;
+    display: block;
+    position:absolute; left: 470px; top: 680px;
+}  
+.button11 {
+    background-color: lemonchiffon; /* Green */
+    border: none;
+    cursor: pointer;
+    height:50px;
+    width: 50px;
+    display: block;
+    position:absolute; left: 510px; top: 450px;
 }  
 .h1{
     font-size: 36px;
@@ -92,7 +149,7 @@ a:link, a:visited ,a:hover ,a:active {
 	color: #000!important;
 	background-color: transparent;
 }
-.w3-button1 {
+.w3-button1, .w3-button2 {
 	border: none;
 	display: inline-block;
 	padding: 8px 16px;
@@ -112,20 +169,7 @@ a:link, a:visited ,a:hover ,a:active {
       width: 100%;
       height: 100%;
 }
-.carousel-control-next-icon, .carousel-control-prev-icon{
-    margin-top:70px;
-}
-.full
-{
-   width: 100%;
-}
-.container-fluid{
-        width: 130%;
-    margin-right: 0;
-    padding-left: 20px;
-}
 table, th, td {
-    border: 1px solid black;
-    width:800px;
-
+    border: none;
+    padding: 18px;
 }
