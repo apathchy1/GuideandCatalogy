@@ -13,3 +13,7 @@
 </div>
     </head>
 <body>
+<audio autoplay loop>
+  <source src="../src/sounds/background.mp3" type="audio/ogg">
+  <embed src="../src/sounds/background.mp3" autostart="true" loop="true" hidden="true"> 
+</audio>
