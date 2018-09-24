@@ -8,11 +8,9 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="../styles/style.css" type="text/css"/>
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<div style="position:relative">
-<img src="../src/logo.png" class="roseta"/>
-</div>
     </head>
 <body>
+    
 <audio autoplay loop>
   <source src="../src/sounds/background.mp3" type="audio/ogg">
   <embed src="../src/sounds/background.mp3" autostart="true" loop="true" hidden="true"> 

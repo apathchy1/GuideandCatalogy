@@ -1,6 +1,6 @@
 
 body {
-    background-color: #57363E;
+    background-color: #73504E;
 }
 
 a:link, a:visited ,a:hover ,a:active {
@@ -70,6 +70,70 @@ a:link, a:visited ,a:hover ,a:active {
     text-decoration: none;
     cursor: pointer;
 } 
+
+.buttoni1 {
+    background-color: red; /* Green */
+    border: none;
+    cursor: pointer;
+    height:30px;
+    width: 100px;
+    display: block;
+    position:absolute; left: 920px; top: 195px;
+}  
+.buttoni2 {
+    background-color: thistle; /* Green */
+    border: none;
+    cursor: pointer;
+   height:30px;
+    width: 100px;
+    display: block;
+    position:absolute; left: 920px; top: 230px;
+}  
+.buttoni3 {
+    background-color: sandybrown; /* Green */
+    border: none;
+    cursor: pointer;
+    height:30px;
+    width: 100px;
+    display: block;
+    position:absolute; left: 920px; top: 270px;
+}  
+.buttoni4 {
+    background-color: aqua; /* Green */
+    border: none;
+    cursor: pointer;
+    height:30px;
+    width: 100px;
+    display: block;
+   position:absolute; left: 920px; top: 320px;
+} 
+.buttoni5 {
+    background-color: firebrick; /* Green */
+    border: none;
+    cursor: pointer;
+    height:30px;
+    width: 100px;
+    display: block;
+    position:absolute; left: 60px; top: 170px;
+}  
+.buttoni6 {
+    background-color: azure; /* Green */
+    border: none;
+    cursor: pointer;
+   height:30px;
+    width: 100px;
+    display: block;
+    position:absolute; left: 60px; top: 235px;
+}  
+.buttoni7 {
+    background-color: turquoise; /* Green */
+    border: none;
+    cursor: pointer;
+    height:30px;
+    width: 100px;
+    display: block;
+    position:absolute; left: 60px; top: 300px;
+}  
 .button2 {
     background-color: green; /* Green */
     border: none;
@@ -77,7 +141,7 @@ a:link, a:visited ,a:hover ,a:active {
     height:50px;
     width: 50px;
     display: block;
-    position:absolute; left: 770px; top: 440px;
+    position:absolute; left: 850px; top: 390px;
 }  
 .button3 {
     background-color: red; /* Green */
@@ -86,7 +150,133 @@ a:link, a:visited ,a:hover ,a:active {
     height:50px;
     width: 50px;
     display: block;
-    position:absolute; left: 700px; top: 450px;
+    position:absolute; left: 770px; top: 400px;
+}  
+.buttonb1 {
+    background-color: red; /* Green */
+    border: none;
+    cursor: pointer;
+    height:50px;
+    width: 50px;
+    display: block;
+    position:absolute; left: 630px; top: 480px;
+}  
+.buttonb2 {
+    background-color: green; /* Green */
+    border: none;
+    cursor: pointer;
+    height:50px;
+    width: 50px;
+    display: block;
+    position:absolute; left: 500px; top: 370px;
+}  
+.buttonb3 {
+    background-color: sandybrown; /* Green */
+    border: none;
+    cursor: pointer;
+    height:50px;
+    width: 50px;
+    display: block;
+    position:absolute; left: 600px; top: 570px;
+}  
+.buttonb4 {
+    background-color: aqua; /* Green */
+    border: none;
+    cursor: pointer;
+    height:50px;
+    width: 50px;
+    display: block;
+    position:absolute; left: 800px; top: 500px;
+}  
+.buttonb5 {
+    background-color: magenta; /* Green */
+    border: none;
+    cursor: pointer;
+    height:50px;
+    width: 50px;
+    display: block;
+    position:absolute; left: 750px; top: 260px;
+} 
+.buttonc1 {
+    background-color: red; /* Green */
+    border: none;
+    cursor: pointer;
+    height:50px;
+    width: 50px;
+    display: block;
+    position:absolute; left: 720px; top: 250px;
+}  
+.buttonc2 {
+    background-color: green; /* Green */
+    border: none;
+    cursor: pointer;
+    height:50px;
+    width: 50px;
+    display: block;
+    position:absolute; left: 830px; top: 320px;
+}  
+.buttonc3 {
+    background-color: sandybrown; /* Green */
+    border: none;
+    cursor: pointer;
+    height:50px;
+    width: 50px;
+    display: block;
+    position:absolute; left: 600px; top: 250px;
+}  
+.buttonc4 {
+    background-color: aqua; /* Green */
+    border: none;
+    cursor: pointer;
+    height:50px;
+    width: 50px;
+    display: block;
+    position:absolute; left: 540px; top: 210px;
+}  
+.buttonc5 {
+    background-color: cornflowerblue; /* Green */
+    border: none;
+    cursor: pointer;
+    height:50px;
+    width: 50px;
+    display: block;
+    position:absolute; left: 540px; top: 270px;
+}  
+.buttonc6 {
+    background-color: magenta; /* Green */
+    border: none;
+    cursor: pointer;
+    height:50px;
+    width: 50px;
+    display: block;
+    position:absolute; left: 460px; top: 395px;
+}  
+.buttonc7 {
+    background-color: lawngreen; /* Green */
+    border: none;
+    cursor: pointer;
+    height:50px;
+    width: 50px;
+    display: block;
+    position:absolute; left: 680px; top: 480px;
+}  
+.buttonc12 {
+    background-color: gold; /* Green */
+    border: none;
+    cursor: pointer;
+    height:50px;
+    width: 50px;
+    display: block;
+    position:absolute; left: 700px; top: 100px;
+}  
+.buttonc15 {
+    background-color: palegoldenrod; /* Green */
+    border: none;
+    cursor: pointer;
+    height:50px;
+    width: 50px;
+    display: block;
+    position:absolute; left: 780px; top: 470px;
 }  
 .button1 {
     background-color: yellow; /* Green */
@@ -95,7 +285,7 @@ a:link, a:visited ,a:hover ,a:active {
     height:50px;
     width: 50px;
     display: block;
-    position:absolute; left: 870px; top: 400px;
+    position:absolute; left: 950px; top: 360px;
 }  
 .button4 {
     background-color: purple; /* Green */
@@ -104,7 +294,7 @@ a:link, a:visited ,a:hover ,a:active {
     height:50px;
     width: 50px;
     display: block;
-    position:absolute; left: 640px; top: 490px;
+    position:absolute; left: 710px; top: 450px;
 }  
 .button6 {
     background-color: aqua; /* Green */
@@ -113,7 +303,34 @@ a:link, a:visited ,a:hover ,a:active {
     height:50px;
     width: 50px;
     display: block;
-    position:absolute; left: 700px; top: 330px;
+    position:absolute; left: 760px; top: 260px;
+}  
+.button7 {
+    background-color: salmon; /* Green */
+    border: none;
+    cursor: pointer;
+    height:50px;
+    width: 50px;
+    display: block;
+    position:absolute; left: 820px; top: 150px;
+}  
+.button8 {
+    background-color: khaki; /* Green */
+    border: none;
+    cursor: pointer;
+    height:50px;
+    width: 50px;
+    display: block;
+    position:absolute; left: 900px; top: 100px;
+}  
+.button9 {
+    background-color: indigo; /* Green */
+    border: none;
+    cursor: pointer;
+    height:50px;
+    width: 50px;
+    display: block;
+    position:absolute; left: 525px; top: 600px;
 }  
 .button10 {
     background-color: hotpink; /* Green */
@@ -122,7 +339,7 @@ a:link, a:visited ,a:hover ,a:active {
     height:50px;
     width: 50px;
     display: block;
-    position:absolute; left: 470px; top: 680px;
+    position:absolute; left: 540px; top: 660px;
 }  
 .button11 {
     background-color: lemonchiffon; /* Green */
@@ -131,7 +348,7 @@ a:link, a:visited ,a:hover ,a:active {
     height:50px;
     width: 50px;
     display: block;
-    position:absolute; left: 510px; top: 450px;
+    position:absolute; left: 580px; top: 420px;
 }  
 .h1{
     font-size: 36px;
